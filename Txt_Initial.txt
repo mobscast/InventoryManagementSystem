@@ -1,0 +1,16 @@
+Python GPT 
+I am making an inventory system
+ I need it to ask the user if they want to (1-Add Item, 2-Remove Item, 3-Edit Item, 4-View Inventory, 5-Orders, 0-Quit). 
+ 
+ Add item needs to ask the following: Item Name, SKU, and Price. 
+ 
+ Remove Item needs to ask for SKU to remove. 
+ 
+ Edit Item needs to ask for the SKU then ask what the user would like to edit (1-Name, 2-SKU, 3-Price, 0-Cancel) 
+ Then it needs to make the change to all of the items with the same SKU. 
+ 
+ View inventory needs to show the current inventory, and needs to show correct count of items with the same SKU. 
+ 
+ Quit saves the current inventory and says thank you for using the inventory system and the program ends. 
+ 
+ I need some time to determine how I want the order system to work.

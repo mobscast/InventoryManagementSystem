@@ -1,0 +1,176 @@
+[
+    {
+        "name": "High-Tier Gaming Desktop",
+        "SKU": "0001",
+        "price": 4599.99,
+        "count": 7
+    },
+    {
+        "name": "Mid-Tier Gaming Desktop",
+        "SKU": "0002",
+        "price": 2499.99,
+        "count": 8
+    },
+    {
+        "name": "Low-Tier Gaming Desktop",
+        "SKU": "0003",
+        "price": 999.99,
+        "count": 8
+    },
+    {
+        "name": "High-Tier Gaming Laptop",
+        "SKU": "0004",
+        "price": 2999.99,
+        "count": 10
+    },
+    {
+        "name": "Mid-Tier Gaming Laptop",
+        "SKU": "0005",
+        "price": 1599.99,
+        "count": 8
+    },
+    {
+        "name": "Low-Tier Gaming Laptop",
+        "SKU": "0006",
+        "price": 899.99,
+        "count": 10
+    },
+    {
+        "name": "High-End Office Desktop",
+        "SKU": "0007",
+        "price": 1299.99,
+        "count": 6
+    },
+    {
+        "name": "Low-End Office Desktop",
+        "SKU": "0008",
+        "price": 599.99,
+        "count": 8
+    },
+    {
+        "name": "High-End Office Laptop",
+        "SKU": "0009",
+        "price": 1199.99,
+        "count": 10
+    },
+    {
+        "name": "Low-End Office Laptop",
+        "SKU": "0010",
+        "price": 699.99,
+        "count": 10
+    },
+    {
+        "name": "High-End Workstation",
+        "SKU": "0011",
+        "price": 49999.99,
+        "count": 10
+    },
+    {
+        "name": "Low-End Workstation",
+        "SKU": "0012",
+        "price": 12999.99,
+        "count": 9
+    },
+    {
+        "name": "Gaming Keyboard",
+        "SKU": "0013",
+        "price": 99.99,
+        "count": 2
+    },
+    {
+        "name": "Office Keyboard",
+        "SKU": "0014",
+        "price": 39.99,
+        "count": 7
+    },
+    {
+        "name": "Gaming Mouse",
+        "SKU": "0015",
+        "price": 69.99,
+        "count": 3
+    },
+    {
+        "name": "Office Mouse",
+        "SKU": "0016",
+        "price": 24.99,
+        "count": 8
+    },
+    {
+        "name": "Gaming Webcam",
+        "SKU": "0017",
+        "price": 129.99,
+        "count": 4
+    },
+    {
+        "name": "Office Webcam",
+        "SKU": "0018",
+        "price": 59.99,
+        "count": 2
+    },
+    {
+        "name": "Gaming Microphone",
+        "SKU": "0019",
+        "price": 149.99,
+        "count": 8
+    },
+    {
+        "name": "Office Microphone",
+        "SKU": "0020",
+        "price": 39.99,
+        "count": 4
+    },
+    {
+        "name": "Gaming Mouse Pad",
+        "SKU": "0021",
+        "price": 39.99,
+        "count": 9
+    },
+    {
+        "name": "Office Mouse Pad",
+        "SKU": "0022",
+        "price": 9.99,
+        "count": 14
+    },
+    {
+        "name": "Gaming Monitor",
+        "SKU": "0023",
+        "price": 279.99,
+        "count": 7
+    },
+    {
+        "name": "Office Monitor",
+        "SKU": "0024",
+        "price": 79.99,
+        "count": 3
+    },
+    {
+        "name": "Controller",
+        "SKU": "0025",
+        "price": 69.99,
+        "count": 6
+    },
+    {
+        "name": "Pen",
+        "SKU": "0026",
+        "price": 1.99,
+        "count": 6
+    },
+    {
+        "name": "Marker",
+        "SKU": "0027",
+        "price": 2.99,
+        "count": 6
+    },
+    {
+        "name": "Large Cutting Board",
+        "SKU": "0028",
+        "price": 34.99,
+        "count": 9
+    },
+    {
+        "name": "Small Cutting Board",
+        "SKU": "0029",
+        "price": 24.99,
+        "count": 7
+    }
+]

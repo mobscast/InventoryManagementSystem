@@ -1,0 +1,24 @@
+Order menu
+1- Create Order
+2- Remove Order
+3- Edit Order
+4- View Order
+5- View All Orders
+6 -Save Orders
+0- Main Menu
+
+Create Order- Enter Name, Enter Phone #, Order #, Ask the user to enter a SKU they want to add to the order, if the item the user wants to add has more than 1 count then ask how many the user wants to add, then remove that amount of that SKU from inventory, Ask the user if they want to add more Items to the order 1- Yes, 0- No. If yes, repeat. If no, Create and Add order to Orders. 
+
+Remove Order- Ask the user for the Order # they want to remove, Ask the user if they sure they want to remove the order 1- Yes, 0- No. If yes, remove the order from orders.
+
+Edit Order- Ask the user for the Order # they want to edit. Ask the user what they want to edit 1- Name, 2- Phone #, 3- Order #, 4- Items. If Items, ask the user if they want to 1- Add item(s), 2- Remove item(s). If add item(s), if the user adds an item that is already in the order add to existing item and take from inventory, otherwise add item to order and take from inventory. If Remove item(s) Show current items Name, SKU, Count. Ask the user what SKU they want to remove, if the SKU has more than 1 item then ask how many items they want to remove.
+
+View Order- Ask the user for the Order # they want to view. Show the Order. Order #, Name, Phone #, Items, Cost. Pause until user presses Enter.
+
+View All Orders- Show All Orders. Order#, Name, Phone #, Items. Make sure orders are sorted by Order #. Pause until user presses Enter.
+
+Save Orders- Save all orders to orders.json.
+
+Main Menu- Return to Main Menu.
+
+Make the program load all orders when started just like the inventory.

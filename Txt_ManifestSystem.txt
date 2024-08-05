@@ -1,0 +1,70 @@
+Manifest System
+Auto generate a manifest with a random number of items on it. the items will be randomly generated from the following pool of possible items.
+The possible items need to be saved in a file that is loaded when the program starts, and saved when the program ends.
+
+
+Manifest Menu
+1- Generate Manifest
+2- Receive Manifest
+3- Delete Manifest
+4- Update Manifest Pool
+0- Main Menu
+
+
+Generate Manifest - Generate a manifest with a random number of item between 5 and 20. 
+Needs to have Manifest number: XXXXXX that is randomly generated (also have to check to make sure the order number doesn't already exist)
+Add manifest to a file that contains all open manifests that is loaded when the program starts.
+
+Recieve Manifest - Display all open manifests with the following format: Manifest:XXXXXX, Items: XX
+Get user input for which manifest number to recieve, ask the user if all items are correct 1- Yes or 2- No. If yes add all items to inventory.
+If no display items with the following format: Name, SKU: XXXX. 
+Ask the user what items are not correct and remove them from the manifest and add the ones that are correct.
+
+Delete Manifest - Display all open manifests, ask the user which manifest to delete. 
+Ask the user if they are sure, 1- Yes or 2- No. If yes remove the manifest, if no return to manifest menu.
+
+Update Manifest Pool - 
+Update Menu
+1- Add Item
+2- Remove Item
+3- Edit Item
+0- Menu
+Add Item - Ask the user for Item name, SKU, and Price. Check to make sure the SKU is not already used, if it is tell the user. and ask for another SKU. Add the item to the pool of items.
+Remove Item - Display all items in pool with the following format: Name, SKU: XXXX. Ask the user for the SKU of the item they want to remove. Ask the user if they are sure 1- Yes or 2-No. If yes remove the item. If no, return to menu.
+Edit Item - Display all items in pool with the following format: Name, SKU: XXXX. Ask the user for the SKU of the item they want to edit. Then ask if they want to edit 1- Name, 2- SKU, 3- Price, 0-Cancel. When an item is edited in the pool it needs to be Updated in the inventory as well.
+Menu - Return to Manifest Menu.
+
+
+Main Menu - Return to Main Menu.
+
+
+Possible items:
+High-Tier Gaming Desktop, SKU: 0001, Price: 4599.99	
+Mid-Tier Gaming Desktop, SKU: 0002, Price: 2499.99
+Low-Tier Gaming Desktop, SKU: 0003, Price: 999.99
+High-Tier Gaming Laptop, SKU: 0004, Price: 2999.99	
+Mid-Tier Gaming Laptop, SKU: 0005, Price: 1599.99
+Low-Tier Gaming Laptop, SKU: 0006, Price: 899.99
+High-End Office Desktop, SKU: 0007, Price: 1299.99
+Low-End Office Desktop, SKU: 0008, Price: 599.99
+High-End Office Laptop, SKU: 0009, Price: 1199.99
+Low-End Office Laptop, SKU: 0010, Price: 699.99
+High-End Workstation, SKU: 0011, Price: 49999.99
+Low-End Workstation, SKU: 0012, Price: 9999.99
+Gaming Keyboard, SKU: 0013, Price: 99.99
+Office Keyboard, SKU: 0014, Price: 39.99
+Gaming Mouse, SKU: 0015, Price: 69.99
+Office Mouse, SKU: 0016, Price: 24.99
+Gaming Webcam, SKU: 0017, Price: 129.99
+Office Webcam, SKU: 0018, Price: 59.99
+Gaming Microphone, SKU: 0019, Price: 149.99
+Office Microphone, SKU: 0020, Price: 39.99
+Gaming Mouse pad, SKU: 0021, Price: 39.99
+Office Mouse pad, SKU: 0022, Price: 9.99
+Gaming Monitor, SKU: 0023, Price: 279.99
+Office Monitor, SKU: 0024, Price: 79.99
+Controller, SKU: 0025, Price: 69.99
+Pen, SKU: 0026, Price: 1.99
+Marker, SKU: 0027, Price: 2.99
+Large Cutting Board, SKU: 0028, Price: 34.99
+Small Cutting Board, SKU: 0029, Price: 24.99
